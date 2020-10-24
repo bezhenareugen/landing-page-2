@@ -227,7 +227,9 @@
             .benefits__cards {
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 max-height: 600px;
+                padding: 0 100px;
             }
             
             .benefits__card {
@@ -270,6 +272,58 @@
             .benefits__card-link:hover {
                 background: url(../img/svg/arrow-link.svg) no-repeat right center;
             }
+            /* .benefits__cards {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-column-gap: 55px;
+                padding: 0 100px;
+            }
+            
+            .benefits__card {
+                grid-column: span 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 112px;
+            }
+            
+            .benefits__card-pic {
+                margin-bottom: 37px;
+                max-width: 66px;
+            }
+            
+            .benefits__card-heading {
+                margin-bottom: 26px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            
+            .benefits__card-description {
+                margin-bottom: 39px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            
+            .benefits__card-link {
+                display: inline-block;
+                font-size: 16px;
+                line-height: 24px;
+                color: #006DFE;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding-right: 59px;
+                background: url(../img/svg/arrow-link.svg) no-repeat 95% center;
+                transition: 0.3s all;
+            }
+            
+            .benefits__card-link:hover {
+                background: url(../img/svg/arrow-link.svg) no-repeat right center;
+            }
+            
+            .b__c-img {
+                display: block;
+            } */
             /*benefits style end*/
             /*places style start */
             
