@@ -19,10 +19,12 @@
 
     burgerItem.addEventListener('click', () => {
         menu.classList.add('header__nav-active');
+        burgerItem.classList.add('burger__none');
 
     });
     closeItem.addEventListener('click', () => {
         menu.classList.remove('header__nav-active');
+        burgerItem.classList.remove('burger__none');
 
     });
 }());

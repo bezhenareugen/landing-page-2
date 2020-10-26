@@ -1,0 +1,107 @@
+.top {
+    margin-bottom: 65px;
+}
+
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+
+.top__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__title {
+    margin-bottom: 65px;
+}
+
+.top__card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+}
+
+.top__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 0 0;
+}
+
+.top__card-like {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 20px;
+    background: url(../img/svg/top-heart.svg) no-repeat right center;
+    margin-right: 14px;
+}
+
+.top__card__comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 23px;
+    background: url(../img/svg/top-comments.svg) no-repeat right center;
+}
+
+.top__card-desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+    margin-bottom: 31px;
+}
+
+.top__card_btn {
+    width: 118px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 12px 19px;
+    text-decoration: none;
+    background: #006DFE;
+    margin: auto 0 0 0;
+}
+
+.top__card_btn:hover {
+    background: #185DB9;
+}
+
+.videos {
+    width: 100%;
+}
+
+.videos__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video__item {
+    padding-top: 56.25%;
+}
+
+.video__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

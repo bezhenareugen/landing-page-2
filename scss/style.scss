@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mrg {
+    margin: 0 20px 0 20px;
+}
+
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+    @import 'header';
+    @import 'intro';
+    @import 'benefits';
+    @import 'places';
+    @import 'tour';
+    @import 'top';
+    @import 'footer';
+    @import 'mobile-res';
+}

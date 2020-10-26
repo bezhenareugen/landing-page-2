@@ -1,0 +1,44 @@
+.tour {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tour__info {
+    padding-left: 47px;
+}
+
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tour__more {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    padding-right: 60px;
+    background: url(../img/svg/arrow-link.svg) no-repeat 95% center;
+    transition: .3s;
+}
+
+.tour__more:hover {
+    background: url(../img/svg/arrow-link.svg) no-repeat right center;
+}
